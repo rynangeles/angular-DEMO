@@ -1,0 +1,32 @@
+<div class="btn-toobar">
+    <a class="btn btn-primary" ui-sref="create">Add</a>
+</div>
+<table class="table table-striped table-hover table-bordered">
+    <thead>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Gender</th>
+        <th>Action</th>
+    </thead>
+    <tr ng-repeat="employee in employees" ng-class="{'info': $index == index}">
+        <td>{{employee.name}}</td>
+        <td>{{employee.email}}</td>
+        <td>{{employee.phone}}</td>
+        <td>{{employee.gender}}</td>
+        <td>
+            <button class="btn" ng-click="update($index)">Edit</button>
+            <button class="btn btn-danger" ng-click="delete($index)">Delete</button>
+        </td>
+    </tr>
+</table>
+
+<div class="center">
+    <ul class="pagination">
+        <li><a href="#" ng-click="paginate(currentPage-1)">&laquo;</a></li>
+        <li ng-repeat="page in pages">
+            <a href="#" ng-click="paginate(page)">{{page}}</a>
+        </li>
+    <li><a href="#" ng-click="paginate(currentPage+1)">&raquo;</a></li>
+    </ul>
+</div>

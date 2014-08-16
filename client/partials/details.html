@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-md-4">
+        <h3>{{action}} Employee</h3>
+        <form name="employee_form" class="form-horizontal" role="form">
+            <div class="form-group">
+                <label for="id_name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" placeholder="Name" class="form-control" id="id_name" name="name" ng-model="employee.name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="id_email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" placeholder="Email" class="form-control" id="id_email" name="email" ng-model="employee.email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="id_phone" class="col-sm-2 control-label">Phone</label>
+                <div class="col-sm-10">
+                    <input type="text" placeholder="Phone" class="form-control" id="id_phone" name="phone" ng-model="employee.phone">{{employee.phone}}
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="id_gender" class="col-sm-2 control-label">Gender</label>
+                <div class="col-sm-10">
+                    <select ng-model="employee.gender" class="form-control" id="id_gender" name="gender" ng-options="g for g in gender"></select>
+                </div>
+            </div>
+            <div class="form-actions center">
+                <button ng-click="save()" class="btn btn-primary">{{action}}</button>
+                <a ui-sref="home" class="btn btn-default">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

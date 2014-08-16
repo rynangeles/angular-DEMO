@@ -1,0 +1,17 @@
+{
+    "name": "SPADEMO",
+    "version": "0.0.0",
+    "description": "AngularJS SPA demo",
+    "main": "server.js",
+    "repository": "",
+    "keywords": [ "angularjs", "ng"],
+    "author": "DEMO",
+    "license": "MIT",
+    "dependencies": {
+        "fs-extra": "~0.5.0",
+        "express": "~3.1.0",
+        "underscore": "~1.4.4",
+        "colors": "~0.6.0-1",
+        "reload": "0.0.2"
+    }
+}

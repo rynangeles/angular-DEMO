@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "age": 29,
+    "name": "Shawn Garza",
+    "gender": "female",
+    "company": "ISBOL",
+    "email": "shawngarza@isbol.com",
+    "phone": "+1 (829) 481-2111",
+    "address": "877 Desmond Court, Rivera, American Samoa, 298",
+    "about": "Laborum amet exercitation non adipisicing velit ipsum eiusmod enim. Aliqua ipsum nostrud ullamco laboris ipsum ex Lorem reprehenderit reprehenderit duis. Occaecat nulla occaecat ad est labore. In esse quis elit qui consequat est velit ad non. Cupidatat magna aute dolor nostrud enim cupidatat.\r\n",
+    "registered": "2014-06-10T12:22:08 -08:00"
+  },
+  {
+    "id": 2,
+    "age": 21,
+    "name": "Reyes Stokes",
+    "gender": "male",
+    "company": "ENTOGROK",
+    "email": "reyesstokes@entogrok.com",
+    "phone": "+1 (991) 573-3750",
+    "address": "602 Durland Place, Sexton, Indiana, 9547",
+    "about": "Duis velit minim proident anim aliquip et elit aliquip nulla. Irure ipsum in deserunt nisi non incididunt est magna. Ullamco Lorem deserunt laborum qui qui in. Sit incididunt adipisicing ea nulla dolor elit magna commodo incididunt commodo sit fugiat. Aliquip labore consectetur amet adipisicing pariatur nulla minim ullamco adipisicing.\r\n",
+    "registered": "2014-05-11T19:56:11 -08:00"
+  },
+  {
+    "id": 3,
+    "age": 25,
+    "name": "Sandy Shaffer",
+    "gender": "female",
+    "company": "BIFLEX",
+    "email": "sandyshaffer@biflex.com",
+    "phone": "+1 (931) 407-2411",
+    "address": "183 Atkins Avenue, Germanton, Oklahoma, 8919",
+    "about": "Deserunt reprehenderit ipsum labore do qui eiusmod ut adipisicing duis cillum ullamco. Commodo fugiat ad magna dolor do sint amet enim exercitation in ipsum magna id. Nulla adipisicing proident labore commodo dolore qui nulla sint dolor.\r\n",
+    "registered": "2014-04-02T09:35:34 -08:00"
+  },
+  {
+    "id": 4,
+    "age": 23,
+    "name": "Lee Charles",
+    "gender": "male",
+    "company": "ILLUMITY",
+    "email": "leecharles@illumity.com",
+    "phone": "+1 (905) 533-3630",
+    "address": "649 Exeter Street, Deercroft, New Mexico, 4323",
+    "about": "Cillum ad labore ad reprehenderit ad dolore cupidatat incididunt. Ea culpa ipsum voluptate aliqua aute consequat nostrud dolore. Ad enim nostrud culpa velit enim culpa cupidatat tempor esse. Veniam nisi elit aute tempor aliqua.\r\n",
+    "registered": "2014-04-17T00:32:23 -08:00"
+  },
+  {
+    "id": 5,
+    "age": 39,
+    "name": "Lisa Park",
+    "gender": "female",
+    "company": "EXTRAWEAR",
+    "email": "lisapark@extrawear.com",
+    "phone": "+1 (837) 525-3020",
+    "address": "821 Moore Place, Aberdeen, Arizona, 5261",
+    "about": "Proident ex culpa elit veniam amet. Duis occaecat est est minim ea dolore proident excepteur minim exercitation. Eu veniam ut id velit incididunt ut occaecat enim commodo. Occaecat sint eu consequat in non labore culpa proident duis quis veniam incididunt aliqua ad. Pariatur quis sunt minim ullamco velit aliqua esse labore magna occaecat pariatur. Eu nulla magna cillum est. Do mollit velit exercitation mollit.\r\n",
+    "registered": "2014-06-16T18:37:10 -08:00"
+  }
+]
